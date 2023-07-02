@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+.container {
+    width:100%;
+    /* margin-top: 10%; */
+    border: 1px solid black;
+}
+
+/* Header and Nav.................... */
+
+header {
+    width:100%;
+     display: flex;
+     position: sticky;
+     top: 0;
+     justify-content: space-around;
+     background-color: white;
+}
+.logo-div {
+    width: 7%;
+}
+.logo-img {
+    width:100%;
+}
+#nav{
+    width: 80%;
+    padding-top: 3%;
+    font-size: 20px;
+    padding-left: 4%;
+    /* border: 2px solid tomato; */
+}
+ul li{
+    /* width:50%; */
+    display: inline;
+    list-style-type: none;
+}
+li {
+    padding-left:5%;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color: blue;
+}
+/* Home style................... */
+
+
+#home-div {
+    display: flex;
+    /* margin-top: 8%; */
+    background-image: url("./img/home-bckground.jpeg");
+    background-size:cover;
+    justify-content: space-between;
+}
+.name-div {
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 50%;
+}
+h1 {
+    color: #002057;
+    width: 80%;
+    font-size: xxx-large;
+}
+.about-me-p{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #2506ad;
+    border: 1px solid #2506ad;
+    border-radius: 25px;
+    padding:1.5%;
+    text-decoration: none;
+}
+a.about-me-p:hover {
+    background-color:#1a047e ;
+    box-shadow: 1px 1px 5px #1a047e;
+}
+.photo-div {
+    width:40%;
+
+}
+.my-photo {
+    width:70%;
+    border-radius: 50%;
+}
+
+
+/*  About section .................. */
+
+
+#about-div {
+    margin-top:2%;
+}
+.about-me-header {
+    text-align: center;
+}
+.me-span{
+    color:#7303a7;
+}
+.inner-about-div
+{
+    margin-top: 2%;
+    display: flex;
+    justify-content:space-evenly;
+}
+.my-ai-photo {
+    width: 100%;
+    border-radius: 50%;
+}
+.cv-div{
+    margin-top: 4%;
+    width:40%;
+}
+.cv-div p{
+    line-height:1.6 ;
+    font-size:16px;
+}
+
+/* education section....................... */
+.education-span {
+    color: #7303a7;
+}
+#education-div{
+    background-color:#e5ecfb;
+}
+.education-header {
+    text-align: center;
+}
+.uni-sec{
+    display: flex;
+    background-color: #fcfcfc;
+    width: 70%;
+    margin: 0 auto;
+    height: 150px;
+}
+.edu-img-div{
+    width:40%
+}
+.edu-img{
+    width:100%;
+    height: 150px;
+}
+.edu-div{
+    padding:2% 1%;
+    text-align: left;
+}
+.shl-sec{
+    display: flex;
+    background-color: #fcfcfc;
+    width: 70%;
+    margin: 0 auto;
+    height: 150px;
+}
+.uni-sec:hover{
+    width: 71%;
+    transition: width .5s linear ;
+    box-shadow: 1px 1px 20px rgb(107, 106, 106);
+}
+.shl-sec:hover{
+    width: 71%;
+    transition: width .5s linear ;
+    box-shadow: 1px 1px 20px rgb(107, 106, 106);
+}
+
+/* skills section...................... */
+#skills-div{
+    background-color: #5505a9;
+}
+.skills-span{
+    color: white;
+}
+.abilities-span{
+    color: #face2e;
+}
+.skills-header {
+    text-align: center;
+}
+table{
+    margin: auto;
+    width: 70%;
+    background-color: #34026d;
+    padding: 1%;
+    text-align: center;
+    color: white;
+    border-radius: 5%;
+}
+tr {
+    width: 100%;
+    height: 150px;
+}
+.skills-img{
+    width:30%;
+    height: 40px;
+}
+td {
+    background-color: #05001f;
+    border-radius: 15%;
+    width: calc(100%/5);
+}
+td:hover{
+    box-shadow:1px 1px 20px #afaeb0 ;
+}
+
+
+
+

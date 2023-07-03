@@ -35,12 +35,12 @@ header {
     padding-left: 4%;
     /* border: 2px solid tomato; */
 }
-ul li{
-    /* width:50%; */
+.nav-ul{
+    width:50%;
     display: inline;
     list-style-type: none;
 }
-li {
+.nav-li {
     padding-left:5%;
 }
 .nav-link {
@@ -63,28 +63,13 @@ li {
 }
 .name-div {
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 15%;
     width: 50%;
 }
 h1 {
     color: #002057;
     width: 80%;
     font-size: xxx-large;
-}
-.about-me-p{
-    display: inline-block;
-    text-align: center;
-    font-size: 18px;
-    color: white;
-    background-color: #2506ad;
-    border: 1px solid #2506ad;
-    border-radius: 25px;
-    padding:1.5%;
-    text-decoration: none;
-}
-a.about-me-p:hover {
-    background-color:#1a047e ;
-    box-shadow: 1px 1px 5px #1a047e;
 }
 .photo-div {
     width:40%;
@@ -101,12 +86,6 @@ a.about-me-p:hover {
 
 #about-div {
     margin-top:2%;
-}
-.about-me-header {
-    text-align: center;
-}
-.me-span{
-    color:#7303a7;
 }
 .inner-about-div
 {
@@ -126,6 +105,21 @@ a.about-me-p:hover {
     line-height:1.6 ;
     font-size:16px;
 }
+.my-cv-p{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #2506ad;
+    border: 1px solid #2506ad;
+    border-radius: 25px;
+    padding:1.5%;
+    text-decoration: none;
+}
+a.my-cv-p:hover {
+    background-color:#1a047e ;
+    box-shadow: 1px 1px 5px #1a047e;
+}
 
 /* education section....................... */
 .education-span {
@@ -137,40 +131,45 @@ a.about-me-p:hover {
 .education-header {
     text-align: center;
 }
-.uni-sec{
+.edu-box{
     display: flex;
-    background-color: #fcfcfc;
     width: 70%;
-    margin: 0 auto;
-    height: 150px;
+    margin: 0 auto; 
+    height: fit-content;   
+    justify-content: space-between;
+  
+}
+.uni-sec{
+    background-color: #fcfcfc;
+    width: 48%;
+    margin-right: 1%;
+    height: 300px;
 }
 .edu-img-div{
-    width:40%
+    width:100%
 }
 .edu-img{
     width:100%;
     height: 150px;
 }
 .edu-div{
-    padding:2% 1%;
-    text-align: left;
+    background-color: #fcfcfc;
+    text-align: center;
 }
 .shl-sec{
-    display: flex;
     background-color: #fcfcfc;
-    width: 70%;
-    margin: 0 auto;
-    height: 150px;
+    width: 48%;
+    height: 300px;
 }
 .uni-sec:hover{
-    width: 71%;
-    transition: width .5s linear ;
+    width: 50.5%;
     box-shadow: 1px 1px 20px rgb(107, 106, 106);
+    transition: all .5s;
 }
 .shl-sec:hover{
-    width: 71%;
-    transition: width .5s linear ;
+    width: 50.5%;
     box-shadow: 1px 1px 20px rgb(107, 106, 106);
+    transition: all .5s;
 }
 
 /* skills section...................... */
@@ -218,15 +217,14 @@ td:hover{
     flex-wrap: wrap;
     width: 90%;
     margin-left:5%;
-    justify-content: space-between;
-
+    justify-content: space-around;
 }
 .java-exp-div {
     background-image: url("./img/bckground-imgs/java-corse-bckground.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    width:30%;
-    height: 250px;
+    width:18%;
+    height: 200px;
     display: flex;
     align-items: end;
     border:1px solid rgb(0,0,0,.5);
@@ -235,7 +233,7 @@ td:hover{
 }
 .java-exp-div:hover{
     box-shadow: 3px 3px 15px rgb(199, 179, 143);
-    width: 30.5%;
+    width: 18.3%;
     transition: all .5s;
 }
 .java-exp-p{
@@ -249,8 +247,8 @@ td:hover{
     background-image: url("./img/bckground-imgs/ieee\ certificate.png");
     background-size: contain;
     background-repeat: no-repeat;
-    width:30%;
-    height: 250px;
+    width:18%;
+    height: 200px;
     display: flex;
     align-items: end;
     border:1px solid rgb(0,0,0,.5);
@@ -258,7 +256,7 @@ td:hover{
 }
 .ieee-exp-div:hover{
     box-shadow: 3px 3px 15px rgb(199, 179, 143);
-    width: 30.5%;
+    width: 18.3%;
     transition: all .5s;
 }
 .ieee-exp-p{
@@ -274,8 +272,8 @@ td:hover{
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
-    width:30%;
-    height: 250px;
+    width:18%;
+    height: 200px;
     display: flex;
     align-items: end;
     border:1px solid rgb(0,0,0,.5);
@@ -283,7 +281,7 @@ td:hover{
 }
 .arduino-exp-div:hover{
     box-shadow: 3px 3px 15px rgb(199, 179, 143);
-    width: 30.5%;
+    width: 18.3%;
     transition: all .5s;
 }
 .arduino-exp-p{
@@ -298,8 +296,8 @@ td:hover{
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
-    width:30%;
-    height: 250px;
+    width:18%;
+    height: 200px;
     display: flex;
     align-items: end;
     border:1px solid rgb(0,0,0,.5);
@@ -308,7 +306,7 @@ td:hover{
 }
 .laptop-main-exp-div:hover{
     box-shadow: 3px 3px 15px rgb(199, 179, 143);
-    width: 30.5%;
+    width: 18.3%;
     transition: all .5s;
 }
 .laptop-main-exp-p{
@@ -323,8 +321,8 @@ td:hover{
     background-color: white;
     background-size: contain;
     background-repeat: no-repeat;
-    width:30%;
-    height: 250px;
+    width:18%;
+    height: 200px;
     display: flex;
     align-items: end;
     border:1px solid rgb(0,0,0,.5);
@@ -332,7 +330,7 @@ td:hover{
 }
 .asp-net-exp-div:hover{
     box-shadow: 3px 3px 15px rgb(199, 179, 143);
-    width: 30.5%;
+    width: 18.3%;
     transition: all .5s;
 }
 .asp-net-exp-p {
@@ -348,8 +346,8 @@ td:hover{
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    width:30%;
-    height: 250px;
+    width:18%;
+    height: 200px;
     display: flex;
     align-items: end;
     border:1px solid rgb(0,0,0,.5);
@@ -357,7 +355,7 @@ td:hover{
 }
 .oyil-exp-div:hover{
     box-shadow: 3px 3px 15px rgb(199, 179, 143);
-    width: 30.5%;
+    width: 18.3%;
     transition: all .5s;
 }
 .oyil-exp-p {
@@ -373,8 +371,8 @@ td:hover{
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    width:30%;
-    height: 250px;
+    width:18%;
+    height: 200px;
     display: flex;
     align-items: end;
     border:1px solid rgb(0,0,0,.5);
@@ -382,7 +380,7 @@ td:hover{
 }
 .python-exp-div:hover{
     box-shadow: 3px 3px 15px rgb(199, 179, 143);
-    width: 30.5%;
+    width: 18.3%;
     transition: all .5s;
 }
 .python-exp-p{
@@ -398,8 +396,8 @@ td:hover{
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    width:30%;
-    height: 250px;
+    width:18%;
+    height: 200px;
     display: flex;
     align-items: end;
     border:1px solid rgb(0,0,0,.5);
@@ -407,7 +405,7 @@ td:hover{
 }
 .front-exp-div:hover{
     box-shadow: 3px 3px 15px rgb(199, 179, 143);
-    width: 30.5%;
+    width: 18.3%;
     transition: all .5s;
 }
 .front-exp-p{
@@ -423,8 +421,8 @@ td:hover{
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
-    width:30%;
-    height: 250px;
+    width:18%;
+    height: 200px;
     display: flex;
     align-items: end;
     border:1px solid rgb(0,0,0,.5);
@@ -432,7 +430,7 @@ td:hover{
 }
 .orange-coding-exp-div:hover{
     box-shadow: 3px 3px 15px rgb(199, 179, 143);
-    width: 30.5%;
+    width: 18.3%;
     transition: all .5s;
 }
 .orange-coding-exp-p{
@@ -445,58 +443,96 @@ td:hover{
 
 /* Projects section.............. */
 #project-div {
-    background-color: #000031;
+    background-color: #5505a9;
 }
 .project-header{
     text-align: center;
 }
-.project-sec{
-    background-color: #34026d;
-    border-radius: 10px;
+.project-box{
     display: flex;
-    width: 70%;
-    margin: 0 auto;
-    height: 200px;
+    width: 90%;
+    height: 400px;
+    gap: 1%;
+    margin-left: auto;
+}
+.project-sec{
+    width: 30%;
+    height: 300px;
     color: white;
+    background-color: rgb(52, 2, 109)
+
 }
 .project-sec:hover{
-    width: 71%;
+    width: 30.5%;
     transition: width .5s linear ;
     box-shadow: 1px 1px 20px rgb(209, 209, 209);
 }
 .project-img-div{
-    width:40%;
+    width:100%;
 }
 .project-img{
     width:100%;
     height: 200px;
-    border-radius: 10px;
-
 }
 .project-div{
-    margin: auto 2%;
-    text-align: left;
+    text-align: center;
 }
-/*
-.edu-div{
-    padding:2% 1%;
-    text-align: left;
+
+
+/* contact me........... */
+#contact-div{
+    background-color: #e5ecfb;
 }
-.shl-sec{
+.contact-header{
+    text-align: center;
+}
+.contact-box{
+    width:70%;
+    margin:0 auto;
+    background-color: white;
     display: flex;
-    background-color: #fcfcfc;
-    width: 70%;
-    margin: 0 auto;
-    height: 150px;
+    justify-content: space-around;
+    padding: 5%;
 }
-.uni-sec:hover{
-    width: 71%;
-    transition: width .5s linear ;
-    box-shadow: 1px 1px 20px rgb(107, 106, 106);
+.contact-img-div{
+    width:30%;
 }
-.shl-sec:hover{
-    width: 71%;
-    transition: width .5s linear ;
-    box-shadow: 1px 1px 20px rgb(107, 106, 106);
+.contact-img {
+    width:100%;
 }
- */
+.contact-info-div{
+    width:35%;
+}
+input,textarea, .submit-btn {
+    width:100%;
+    margin-bottom: 2%;
+}
+textarea{
+    height: 30%;
+}
+input, .submit-btn{
+    height: 30px;
+}
+.submit-btn{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: #2506ad;
+    border: 1px solid #2506ad;
+    border-radius: 5px;
+    padding:1.5%;
+    text-decoration: none;
+}
+.submit-btn:hover{
+    background-color:#1a047e ;
+    box-shadow: 1px 1px 5px #1a047e;
+    }
+.icons-ul-footer{
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10%;
+}

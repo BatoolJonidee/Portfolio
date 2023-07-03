@@ -57,7 +57,7 @@ li {
 #home-div {
     display: flex;
     /* margin-top: 8%; */
-    background-image: url("./img/home-bckground.jpeg");
+    background-image: url("./img/bckground-imgs/home-bckground.jpeg");
     background-size:cover;
     justify-content: space-between;
 }
@@ -198,6 +198,7 @@ table{
 tr {
     width: 100%;
     height: 150px;
+    
 }
 .skills-img{
     width:30%;
@@ -211,7 +212,291 @@ td {
 td:hover{
     box-shadow:1px 1px 20px #afaeb0 ;
 }
+/* Experience section.................. */
+.exps-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left:5%;
+    justify-content: space-between;
 
+}
+.java-exp-div {
+    background-image: url("./img/bckground-imgs/java-corse-bckground.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    border:1px solid rgb(0,0,0,.5);
+    margin-bottom: 2%;
+    box-shadow: 2px 2px 10px rgb(210, 192, 159);
+}
+.java-exp-div:hover{
+    box-shadow: 3px 3px 15px rgb(199, 179, 143);
+    width: 30.5%;
+    transition: all .5s;
+}
+.java-exp-p{
+    background-color:rgb(241, 166, 73);
+    width:100%;
+    padding:3%;
+    text-align: center;
+    color: white;
+}
+.ieee-exp-div{
+    background-image: url("./img/bckground-imgs/ieee\ certificate.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    border:1px solid rgb(0,0,0,.5);
+    box-shadow: 2px 2px 10px rgb(210, 192, 159);
+}
+.ieee-exp-div:hover{
+    box-shadow: 3px 3px 15px rgb(199, 179, 143);
+    width: 30.5%;
+    transition: all .5s;
+}
+.ieee-exp-p{
+    background-color:rgb(241, 166, 73);
+    width:100%;
+    padding:3%;
+    text-align: center;
+    color: white;
+}
 
+.arduino-exp-div {
+    background-image: url("./img/bckground-imgs/arduino\ bckground.png");
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    border:1px solid rgb(0,0,0,.5);
+    box-shadow: 2px 2px 10px rgb(210, 192, 159);
+}
+.arduino-exp-div:hover{
+    box-shadow: 3px 3px 15px rgb(199, 179, 143);
+    width: 30.5%;
+    transition: all .5s;
+}
+.arduino-exp-p{
+    background-color:rgb(241, 166, 73);
+    width:100%;
+    padding:3%;
+    text-align: center;
+    color: white;
+}
+.laptop-main-exp-div{
+    background-image: url("./img/bckground-imgs/laptop-main-bckground.png");
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    border:1px solid rgb(0,0,0,.5);
+    margin-bottom: 2%;
+    box-shadow: 2px 2px 10px rgb(210, 192, 159);
+}
+.laptop-main-exp-div:hover{
+    box-shadow: 3px 3px 15px rgb(199, 179, 143);
+    width: 30.5%;
+    transition: all .5s;
+}
+.laptop-main-exp-p{
+    background-color:rgb(241, 166, 73);
+    width:100%;
+    padding:3%;
+    text-align: center;
+    color: white;
+}
+.asp-net-exp-div{
+    background-image: url("./img/bckground-imgs/asp-net-bckground.jpeg");
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    border:1px solid rgb(0,0,0,.5);
+    box-shadow: 2px 2px 10px rgb(210, 192, 159);
+}
+.asp-net-exp-div:hover{
+    box-shadow: 3px 3px 15px rgb(199, 179, 143);
+    width: 30.5%;
+    transition: all .5s;
+}
+.asp-net-exp-p {
+    background-color:rgb(241, 166, 73);
+    width:100%;
+    padding:3%;
+    text-align: center;
+    color: white;
+}
+.oyil-exp-div {
+    background-image: url("./img/bckground-imgs/OYIL.png");
+    background-color: white;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    border:1px solid rgb(0,0,0,.5);
+    box-shadow: 2px 2px 10px rgb(210, 192, 159);
+}
+.oyil-exp-div:hover{
+    box-shadow: 3px 3px 15px rgb(199, 179, 143);
+    width: 30.5%;
+    transition: all .5s;
+}
+.oyil-exp-p {
+    background-color:rgb(241, 166, 73);
+    width:100%;
+    padding:3%;
+    text-align: center;
+    color: white;
+}
+.python-exp-div{
+    background-image: url("./img/bckground-imgs/python-bckground.png");
+    background-color: white;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    border:1px solid rgb(0,0,0,.5);
+    box-shadow: 2px 2px 10px rgb(210, 192, 159);
+}
+.python-exp-div:hover{
+    box-shadow: 3px 3px 15px rgb(199, 179, 143);
+    width: 30.5%;
+    transition: all .5s;
+}
+.python-exp-p{
+    background-color:rgb(241, 166, 73);
+    width:100%;
+    padding:3%;
+    text-align: center;
+    color: white;
+}
+.front-exp-div{
+    background-image: url("./img/bckground-imgs/frontend-bckground.png");
+    background-color: white;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    border:1px solid rgb(0,0,0,.5);
+    box-shadow: 2px 2px 10px rgb(210, 192, 159);
+}
+.front-exp-div:hover{
+    box-shadow: 3px 3px 15px rgb(199, 179, 143);
+    width: 30.5%;
+    transition: all .5s;
+}
+.front-exp-p{
+    background-color:rgb(241, 166, 73);
+    width:100%;
+    padding:3%;
+    text-align: center;
+    color: white;
+}
+.orange-coding-exp-div{
+    background-image: url("./img/bckground-imgs/coding-academy.jpg");
+    background-color: white;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:30%;
+    height: 250px;
+    display: flex;
+    align-items: end;
+    border:1px solid rgb(0,0,0,.5);
+    box-shadow: 2px 2px 10px rgb(210, 192, 159);
+}
+.orange-coding-exp-div:hover{
+    box-shadow: 3px 3px 15px rgb(199, 179, 143);
+    width: 30.5%;
+    transition: all .5s;
+}
+.orange-coding-exp-p{
+    background-color:rgb(241, 166, 73);
+    width:100%;
+    padding:3%;
+    text-align: center;
+    color: white;
+}
 
+/* Projects section.............. */
+#project-div {
+    background-color: #000031;
+}
+.project-header{
+    text-align: center;
+}
+.project-sec{
+    background-color: #34026d;
+    border-radius: 10px;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    height: 200px;
+    color: white;
+}
+.project-sec:hover{
+    width: 71%;
+    transition: width .5s linear ;
+    box-shadow: 1px 1px 20px rgb(209, 209, 209);
+}
+.project-img-div{
+    width:40%;
+}
+.project-img{
+    width:100%;
+    height: 200px;
+    border-radius: 10px;
 
+}
+.project-div{
+    margin: auto 2%;
+    text-align: left;
+}
+/*
+.edu-div{
+    padding:2% 1%;
+    text-align: left;
+}
+.shl-sec{
+    display: flex;
+    background-color: #fcfcfc;
+    width: 70%;
+    margin: 0 auto;
+    height: 150px;
+}
+.uni-sec:hover{
+    width: 71%;
+    transition: width .5s linear ;
+    box-shadow: 1px 1px 20px rgb(107, 106, 106);
+}
+.shl-sec:hover{
+    width: 71%;
+    transition: width .5s linear ;
+    box-shadow: 1px 1px 20px rgb(107, 106, 106);
+}
+ */
